@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+
+  .gradient-custom {
+    /* fallback for old browsers */
+    background:#ffa726;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right,#ffa726, rgb(240, 242, 245));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,#ffa726, rgb(164, 165, 128))
+    }
+
+
+    i {
+   
+      color: #0f0bee;
+      position: absolute;
+      top:57%;
+      right: 16%;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
